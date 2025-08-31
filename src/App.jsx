@@ -1,5 +1,6 @@
 
-// import './App.css';
+import './App.css';
+import Getinputval from './Getinputval';
 // import { useState } from 'react';
 // import Toggle from './toggle.jsx';
 // import MultToggle from './multToggle.jsx';
@@ -82,10 +83,11 @@ import React from 'react';
 import Props1 from './props1';
 
 const App = () => {
-  let array=["sam","elen","mark"];
+  // let array=["sam","elen","mark"];
   return (
     <div>
- <Props1 props={array}/>
+ {/* <Props1 props={array}/> */}
+ <Getinputval/>
     </div>
   )
 }
