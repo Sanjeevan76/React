@@ -81,13 +81,29 @@ import Getinputval from './Getinputval';
 
 import React from 'react';
 import Props1 from './props1';
+import Cnotrolled from './Cnotrolled';
+import HandleCheckbox from './HandleCheckbox';
+import RadioDropdown from './RadioDropdown';
+import Arrayobject from './Arrayobject';
+import Mapargument from './1mapargument';
+import ClockColor from './ClockColor';
+import NestedLoop from './NestedLoop';
+import UseEffect from './UseEffect';
 
 const App = () => {
   // let array=["sam","elen","mark"];
   return (
     <div>
  {/* <Props1 props={array}/> */}
- <Getinputval/>
+ {/* <Cnotrolled/> */}
+ {/* <Getinputval/> */}
+{/* <HandleCheckbox/> */}
+{/* <RadioDropdown/> */}
+{/* <Arrayobject/> */}
+{/* <Mapargument/> */}
+{/* <ClockColor/> */}
+{/* <NestedLoop/> */}
+<UseEffect/>
     </div>
   )
 }
