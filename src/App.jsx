@@ -1,5 +1,5 @@
 
-import './App.css';
+// import './App.css';
 import Getinputval from './Getinputval';
 // import { useState } from 'react';
 // import Toggle from './toggle.jsx';
@@ -80,15 +80,25 @@ import Getinputval from './Getinputval';
 //props ARRAY
 
 import React from 'react';
-import Props1 from './props1';
-import Cnotrolled from './Cnotrolled';
-import HandleCheckbox from './HandleCheckbox';
-import RadioDropdown from './RadioDropdown';
-import Arrayobject from './Arrayobject';
-import Mapargument from './1mapargument';
-import ClockColor from './ClockColor';
-import NestedLoop from './NestedLoop';
-import UseEffect from './UseEffect';
+// import Props1 from './props1';
+// import Cnotrolled from './Cnotrolled';
+// import HandleCheckbox from './HandleCheckbox';
+// import RadioDropdown from './RadioDropdown';
+// import Arrayobject from './Arrayobject';
+// import Mapargument from './1mapargument';
+// import ClockColor from './ClockColor';
+// import NestedLoop from './NestedLoop';
+// import UseEffect from './UseEffect';
+// import CssInLine1 from './CssInLine1';
+// import UseRef from './useRef';
+// import PureFn from './PureFn';
+// import ObjectUpd from './ObjectUpd';
+// import ArrayUpd from './ArrayUpd';
+// import UseActionState from './UseActionState';
+// import UserId from './UseId';
+// import ApiDataFetch from './ApiDataFetch';
+import ApiDataFetch2 from './ApiDataFetch2';
+
 
 const App = () => {
   // let array=["sam","elen","mark"];
@@ -103,7 +113,16 @@ const App = () => {
 {/* <Mapargument/> */}
 {/* <ClockColor/> */}
 {/* <NestedLoop/> */}
-<UseEffect/>
+{/* <UseEffect/> */}
+{/* <CssInLine1/> */}
+ {/* <UseRef/> */}
+{/* <PureFn/> */}
+{/* <ObjectUpd/> */}
+{/* <ArrayUpd/> */}
+{/* <UseActionState/> */}
+{/* <UserId/> */}
+{/* <ApiDataFetch/> */}
+< ApiDataFetch2/>
     </div>
   )
 }
