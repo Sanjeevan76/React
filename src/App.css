@@ -51,3 +51,11 @@
 .heading{
   font-weight: bold;
 }
+
+.error{
+  border: 2px solid red;
+}
+
+.error:focus{
+  outline: 1px solid red;
+}

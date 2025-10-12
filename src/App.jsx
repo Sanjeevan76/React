@@ -97,8 +97,16 @@ import React from 'react';
 // import UseActionState from './UseActionState';
 // import UserId from './UseId';
 // import ApiDataFetch from './ApiDataFetch';
-import ApiDataFetch2 from './ApiDataFetch2';
+// import ApiDataFetch2 from './ApiDataFetch2';
 
+
+// import AddUserApi from './AddUserApi';
+// import { Route, Routes } from 'react-router';
+// import UserEdit from './UserEdit';
+
+
+// import ErrorAleart from './errorAleart';
+import UseReducer from './UseReducer';
 
 const App = () => {
   // let array=["sam","elen","mark"];
@@ -122,7 +130,15 @@ const App = () => {
 {/* <UseActionState/> */}
 {/* <UserId/> */}
 {/* <ApiDataFetch/> */}
-< ApiDataFetch2/>
+{/* < ApiDataFetch2/> */}
+{/* <AddUserApi/> */}
+{/* <Routes>
+  <Route path='/edit/:id' element={<UserEdit/>}/>
+  <Route path='/' element={<AddUserApi/>}/>
+</Routes> */}
+
+{/* <ErrorAleart/> */}
+<UseReducer/>
     </div>
   )
 }
